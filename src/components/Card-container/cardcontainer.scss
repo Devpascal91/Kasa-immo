@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    .card {
+        background: linear-gradient(180deg, rgb(235, 99, 99) 0%, rgba(54, 26, 26, 0.667) 100% );
+        width: 33%;
+        height: 250px;
+        border-radius: 10px;
+        text-decoration: none;
+        margin-bottom: 5px;
+        p {
+            position: relative;
+            top: 150px;
+            width: 50%;
+            left: 30px;
+            list-style: none;
+            color: white;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+        }
+    }
+    
+}
